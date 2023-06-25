@@ -1,0 +1,12 @@
+name: HomePlugin
+version: '${version}'
+main: com.rampagemc.homeplugin.HomePlugin
+api-version: 1.19
+libraries:
+  - com.fasterxml.jackson.core:jackson-core:2.15.2
+  - com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.15.2
+commands:
+  sethome:
+    description: Set home point
+  home:
+    description: Return to home
